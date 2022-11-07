@@ -1,3 +1,5 @@
+/* Overall styles */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -10,7 +12,7 @@ body {
 
 /* Header */
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -19,75 +21,80 @@ body {
 
 /* Horiseon Header */
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 /* Top right Headers */
 
-.header div {
+header nav {
     padding-top: 15px;
-    margin-right: 10px;
+    margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 28px;
+    font-size: 31px;
 }
 
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Anchors */
+/* Text */
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* Paragraphs */
-
 p {
-    font-size: 24px;
-    text-align: center;
+    font-size: 16px;
 }
+
+/* Digital Marketing background Photo */
 
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
-    border: solid white;
     background-size: cover;
     background-position: center;
 }
+
+/* float for search engine optimization and social media marketing */
 
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* float for online reputation management */
+
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
+/* Boxing for service sections */
+
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Benefits Overall */
+/* Overall Benefits aside (Sections: Lead Generation, Brand awareness, Cost management) */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -100,7 +107,7 @@ p {
     box-sizing: content-box;
 }
 
-/* Benefit Sections */
+/* Benefits aside invidual elements (Sections: Lead Generation, Brand awareness, Cost management) */
 
 .benefit {
     margin-bottom: 32px;
@@ -117,12 +124,12 @@ p {
 }
 
 .benefit img {
-    margin-bottom: 10px;
-    margin: 10px auto;
-    max-width: 223.5px;
+   display: block;
+   margin: 10px auto;
+   max-width: 150px;
 }
 
-/* Service Overall */
+/* Overall Service sections (Sections: Seach engine optimization, Online Reputation Management, Social Media Marketing) */
 
 .service {
     margin-bottom: 20px;
@@ -133,28 +140,26 @@ p {
     color: #ffffff;
 }
 
-/* Service Sections */
+/* Service sections individual elements (Sections: Seach engine optimization, Online Reputation Management, Social Media Marketing) */
 
 .service img {
     max-height: 200px;
-    border: solid white;
 }
 
 .service h2 {
     margin-bottom: 20px;
     font-size: 36px;
-    text-align: center;
 }
 
 /* Footer */
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
