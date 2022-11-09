@@ -60,7 +60,7 @@ p {
     font-size: 16px;
 }
 
-/* Digital Marketing background Photo */
+/* Digital Marketing main Photo */
 
 .hero {
     height: 800px;
@@ -71,14 +71,12 @@ p {
     background-position: center;
 }
 
-/* float for search engine optimization and social media marketing */
+/* Floats */
 
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
-/* float for online reputation management */
 
 .float-right {
     float: right;
@@ -93,7 +91,8 @@ main {
     margin-left: 20px;
 }
 
-/* Overall Benefits aside (Sections: Lead Generation, Brand awareness, Cost management) */
+/* Overall Benefits aside 
+(Sections: Lead Generation, Brand awareness, Cost management) */
 
 .benefits {
     margin-right: 20px;
@@ -107,20 +106,17 @@ main {
     box-sizing: content-box;
 }
 
-/* Benefits aside invidual elements (Sections: Lead Generation, Brand awareness, Cost management) */
+/* Benefits aside invidual elements 
+(Sections: Lead Generation, Brand awareness, Cost management) */
 
 .benefit {
     margin-bottom: 32px;
-    text-align: center;
     color: #ffffff;
 }
 
 .benefit h3 {
     margin-bottom: 10px;
-    font-size: x-large;
-
     text-align: center;
-    color: #ffffff;
 }
 
 .benefit img {
@@ -129,7 +125,8 @@ main {
    max-width: 150px;
 }
 
-/* Overall Service sections (Sections: Seach engine optimization, Online Reputation Management, Social Media Marketing) */
+/* Overall Service sections 
+(Sections: Seach engine optimization, Online Reputation Management, Social Media Marketing) */
 
 .service {
     margin-bottom: 20px;
@@ -140,7 +137,8 @@ main {
     color: #ffffff;
 }
 
-/* Service sections individual elements (Sections: Seach engine optimization, Online Reputation Management, Social Media Marketing) */
+/* Service sections individual elements 
+(Sections: Seach engine optimization, Online Reputation Management, Social Media Marketing) */
 
 .service img {
     max-height: 200px;
