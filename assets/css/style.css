@@ -91,8 +91,7 @@ main {
     margin-left: 20px;
 }
 
-/* Overall Benefits aside 
-(Sections: Lead Generation, Brand awareness, Cost management) */
+/* Overall Benefits aside */
 
 .benefits {
     margin-right: 20px;
@@ -106,8 +105,7 @@ main {
     box-sizing: content-box;
 }
 
-/* Benefits aside invidual elements 
-(Sections: Lead Generation, Brand awareness, Cost management) */
+/* Benefits aside invidual elements */
 
 .benefit {
     margin-bottom: 32px;
@@ -125,8 +123,7 @@ main {
    max-width: 150px;
 }
 
-/* Overall Service sections 
-(Sections: Seach engine optimization, Online Reputation Management, Social Media Marketing) */
+/* Overall Service sections */
 
 .service {
     margin-bottom: 20px;
@@ -137,8 +134,7 @@ main {
     color: #ffffff;
 }
 
-/* Service sections individual elements 
-(Sections: Seach engine optimization, Online Reputation Management, Social Media Marketing) */
+/* Service sections individual elements */
 
 .service img {
     max-height: 200px;
